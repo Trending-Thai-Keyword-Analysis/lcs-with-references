@@ -16,7 +16,7 @@ def generate_grid_options_builder(df):
     """)
 
     #Infer basic colDefs from dataframe types
-    gb.configure_default_column(resizable=False, cellStyle=cellsytle_jscode, editable=True)
+    gb.configure_default_column(resizable=False, cellStyle=cellsytle_jscode)
     gb.configure_column("Trend", type="string", minWidth=320)
     gb.configure_column("Frequency", minWidth=100)
     gb.configure_selection(selection_mode='single', pre_selected_rows=[0])
