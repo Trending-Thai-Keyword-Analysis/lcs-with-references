@@ -53,7 +53,7 @@ def generate_wordcloud(df):
     st.image(wc.to_array(),use_column_width=True)
 
 st.set_page_config(layout='wide')
-st.title('Thai Trending Phrase Analysis on Temporal News Dataset')
+st.title('Thai Trending Phrase Analysis on Online News')
 
 c1,c2,c3,c4 = st.columns((2,2,2,2))
 ############################################
